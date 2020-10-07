@@ -1,19 +1,31 @@
 /* Estructura */
+/*
 *{
     background-color: rgb(0, 0, 75)
 }
+*/
+html{
+    min-height: 100%;
+}
+
+body{
+    /*background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
+    background-color: rgb(0, 0, 20);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(0, 1, 85, 0.1) 5px, rgba(0, 1, 85,.1) 10px);
+}
 .estructuraPrincipal{
-    height: 50em;
+    
+    height: 35em;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    
 }
 .marcoI{
     height: 100%;
     width: 20%;
-    background-color: rgb(0, 0, 75);
 }
 .estructuraCentral{
     height: 100%;
@@ -27,19 +39,71 @@
 .marcoD{
     height: 100%;
     width: 20%;
-    background-color: rgb(0, 0, 75);
 }
 
 .margenSuperior{
-    height: 20%;
+    height: 10%;
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 0, 75);
 }
+
 .estructuraContenido{
     height: 80%;
     width: 100%;
-    color: white;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
 }
+.zonaContenido{
+    height: 100%;
+    width: 20%;
+    background-color: transparent;
+    color: white;
+    margin-top: 5em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    
+}
+.zonaTexto{
+    height: 100%;
+    width: 80%;
+    margin-top: 4em;
+    margin-right: 1em;
+    margin-bottom: 4em;
+    margin-left: 4em;
+    text-align: left;
+    color: white;
+}
+
+.margenInferior{
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: rgb(141, 174, 211);
+}
+
+.bMenu{
+    
+    height: 10em;
+    width: 10em;
+    background-color: white;
+}
+
+#boton{
+    height: 2.5em;
+    width: 8em;
+    background-color: rgba(0, 13, 83, 0.2);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
