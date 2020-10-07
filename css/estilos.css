@@ -90,13 +90,16 @@ p{
     color: rgb(141, 174, 211);
 }
 
-.bMenu{
-    
-    height: 10em;
-    width: 10em;
+#bMenu{
+    height: 5em;
+    width: 5em;
     background-color: white;
+    transition: width 0.5s, height 0.5s;
 }
-
+#bMenu:hover {
+    width: 10em;
+    height: 10em;
+  }
 #boton{
     height: 2.5em;
     width: 8em;
