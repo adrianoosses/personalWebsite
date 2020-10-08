@@ -90,16 +90,26 @@ p{
     color: rgb(141, 174, 211);
 }
 
+/*
 #bMenu{
     height: 5em;
     width: 5em;
+    position: relative;
     background-color: white;
-    transition: width 0.5s, height 0.5s;
+    animation-name: example;
+    animation-duration: 4s
 }
-#bMenu:hover {
-    width: 10em;
-    height: 10em;
+#bMenu:hover{
+    animation-name: example;
+    animation-duration: 4s;
+    background-color: white;
+}*/
+
+@keyframes example {
+    0%   {background-color: white; height: 5em; width: 5em;}
+    100%  {background-color:white; height: 10em; width: 10em;}
   }
+
 #boton{
     height: 2.5em;
     width: 8em;
@@ -108,5 +118,35 @@ p{
     align-items: center;
     justify-content: center;
     vertical-align: middle;
+    padding: 0px;
+    line-height: 40px;
+    transition: width 0.2s;
+    position: relative;
 }
+#boton:hover{
+    position: relative;
+    height: 2.5em;
+    width: 8.5em;
+    background-color: rgba(0, 20, 134, 0.2);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    
+}
+
+#boton2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: red;
+    border: 10px solid #990000;
+    box-shadow: 4px 4px 4px #999;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    line-height: 100px; /*or you could use 4em*/
+    }
 
