@@ -1,7 +1,15 @@
 menu de tres barras que se hace grande.
 Los botoenes salen desde la izda, pasand e ser transparentes a tener color
+diapositiva se esconde en la esquina tb
 
 Menu boton se difuminaPagina se pliega a la esquina inferior derecha.
 
-En portafolio subir 3 proyectos (ando y dos en construccion)
+En portafolio subir 4 proyectos (ando y 3 en construccion)
+- mando
+- identificador logos
+- propagacion de orbitas
+- juego de lucha. club de la lucha
+
 flechas a los laterales <>
+
+footer
