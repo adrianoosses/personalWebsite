@@ -78,13 +78,13 @@ body{
     flex-direction: column;
 }
 .zonaDescripcion{
-    height: 60%;
+    height: 35%;
     width: 100%;
     text-align: left;
     color: white;
 }
 .zonaHabilidades{
-    height: 40%;
+    height: 65%;
     width: 100%;
     text-align: left;
     color: white;
@@ -148,6 +148,7 @@ p{
     line-height: 40px;
     transition: width 0.2s;
     position: relative;
+    cursor: pointer;
 }
 #boton:hover{
     position: relative;
@@ -158,6 +159,7 @@ p{
     align-items: center;
     justify-content: center;
     vertical-align: middle;
+    cursor: pointer;
     
 }
 
@@ -174,18 +176,19 @@ p{
     vertical-align: middle;
     color: white;
     line-height: 100px; /*or you could use 4em*/
+    cursor: pointer;
     }
-.barra1, .barra2, .barra3{
+.barra1, .barra2, .barra3, .barra4, .barra5, .barra6, .barra7{
     height: 1em;
-    
-    margin-top: 0.1em;
+    margin-top: 0.2em;
     background-color: rgba(0, 140, 255, 0.2);
+    animation-duration: 2s;
     
   }
 .barra1{
     width: 15em;
     animation-name: aEj1;
-    animation-duration: 2s;
+    
 }
 @keyframes aEj1 {
     from {width: 0em;;}
@@ -194,7 +197,6 @@ p{
 .barra2{
     width: 20em;
     animation-name: aEj2;
-    animation-duration: 2s;
 }
 @keyframes aEj2 {
     from {width: 0em;}
@@ -203,9 +205,45 @@ p{
 .barra3{
     width: 10em;
     animation-name: aEj3;
-    animation-duration: 2s;
 }
 @keyframes aEj3 {
     from {width: 0em;}
     to {width: 10em;}
+}
+.barra4{
+    width: 8em;
+    animation-name: aEj4;
+}
+@keyframes aEj4 {
+    from {width: 0em;}
+    to {width: 8em;}
+}
+.barra5{
+    width: 7em;
+    animation-name: aEj5;
+}
+@keyframes aEj5 {
+    from {width: 0em;}
+    to {width: 7em;}
+}
+.barra6{
+    width: 13em;
+    animation-name: aEj6;
+}
+@keyframes aEj6 {
+    from {width: 0em;}
+    to {width: 13em;}
+}
+.barra7{
+    width: 3em;
+    animation-name: aEj7;
+}
+@keyframes aEj7 {
+    from {width: 0em;}
+    to {width: 3em;}
+}
+
+.blank{
+    height: 2.5em;
+    width: 4em;
 }
